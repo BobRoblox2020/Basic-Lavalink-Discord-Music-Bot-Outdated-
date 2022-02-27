@@ -1,0 +1,26 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.3.0",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.2.1",
+    "distube": "^3.3.2",
+    "erela.js": "^2.3.3",
+    "erela.js-spotify": "^1.2.0",
+    "ffmpeg-static": "^4.4.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.34",
+    "ms": "^2.1.3",
+    "simply-djs": "^2.5.2"
+  }
+}
