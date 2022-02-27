@@ -7,7 +7,7 @@ const commands = [];
 const commandFiles = fs.readdirSync('./slashcommands').filter(file => file.endsWith('.js'));
 
 // Place your client and guild ids here
-const clientId = '947446685796274218';
+const clientId = 'bot_id';
 
 for (const file of commandFiles) {
     const command = require(`./slashcommands/${file}`);
