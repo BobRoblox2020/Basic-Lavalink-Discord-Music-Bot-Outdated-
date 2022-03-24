@@ -38,8 +38,6 @@ module.exports = {
               });
               player.connect();
           
-              player.queue.add(res.tracks[0]);
-          
       switch (res.loadType) {
      	case "PLAYLIST_LOADED":
           {
